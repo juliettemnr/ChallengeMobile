@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Challenge</string>
+    <string name="button1">Appareil</string>
+    <string name="button2">Agenda</string>
+    <string name="button3">Portail 3101</string>
+    <string name="agenda">Agenda</string>
+    <string name="title_activity_portail">portail</string>
+    <string name="boutonActivity3">Aller à agenda</string>
+</resources>
