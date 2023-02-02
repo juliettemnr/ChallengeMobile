@@ -12,6 +12,7 @@ class Portail : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_portail)
+
         val webView = findViewById<WebView>(R.id.webView)
         webView.webViewClient = WebViewClient()
         webView.loadUrl("https://sitescours.monportail.ulaval.ca/ena/site/accueil?idSite=152945&_js=true&idPage=3814963")
