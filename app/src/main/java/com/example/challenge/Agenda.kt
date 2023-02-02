@@ -21,7 +21,7 @@ class Agenda : AppCompatActivity() {
         startActivity(intent)
 
 
-        lateinit var backButton : Button
+        var backButton : Button=findViewById(R.id.backButton)
         backButton.setOnClickListener{
             val intent= Intent(this, MainActivity::class.java)
             startActivity(intent)
